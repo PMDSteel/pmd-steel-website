@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#163c27">
-  <meta name="description" content="PMD Steel Construction — structural steel erection specialists covering London, Essex and Hertfordshire. Over 40 years of industry experience.">
-  <title>PMD Steel Construction | Structural Steel Erection Specialists</title>
+  <meta name="description" content="PMD Steel Construction: structural steel erectors and steel erection subcontractors across London, Essex and Hertfordshire. Structural steel erection for data centres, temporary works, hotels, schools and car parks.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.pmdsteelconstruction.com/">
+  <title>PMD Steel Construction | Structural Steel Erectors London & Essex</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -154,8 +156,8 @@
     <section class="content contact" id="contact"><div class="wrap"><p class="section-label">Get in touch</p><h2 class="section-title">Contact us</h2><p class="contact-intro">For steel erection enquiries or to discuss an upcoming project, please complete the form or contact our team directly.</p>
       <div class="contact-grid">
         <div>
-          <!-- SETUP REQUIRED: Replace YOUR_FORM_ID with the ID supplied by Formspree. -->
-          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="enquiry-form">
+          <!-- Formspree contact form connected -->
+          <form action="https://formspree.io/f/mkjjwdry" method="POST" id="enquiry-form">
             <div class="form-grid">
               <div class="field"><label for="name">Your name *</label><input id="name" name="name" autocomplete="name" required></div>
               <div class="field"><label for="company">Company name</label><input id="company" name="company" autocomplete="organization"></div>
@@ -165,7 +167,7 @@
             </div>
             <input type="hidden" name="_subject" value="PMD Steel Construction — Website Enquiry">
             <button type="submit" class="button form-submit">Send enquiry <span aria-hidden="true">↗</span></button>
-            <p class="form-note" id="form-note">The enquiry form will be activated when a form delivery service is connected. You can contact us directly using the details alongside.</p>
+            <p class="form-note" id="form-note">Please complete the form above and we'll be in touch as soon as possible.</p>
           </form>
         </div>
         <div class="contact-details"><h3>Company contact details</h3>
@@ -187,7 +189,7 @@
       function restart(){clearInterval(timer);if(!matchMedia('(prefers-reduced-motion: reduce)').matches)timer=setInterval(()=>show(current+1),5000)}
       document.getElementById('prev').addEventListener('click',()=>{show(current-1);restart()});document.getElementById('next').addEventListener('click',()=>{show(current+1);restart()});show(0);restart();
       document.getElementById('year').textContent=new Date().getFullYear();
-      const form=document.getElementById('enquiry-form');form.addEventListener('submit',e=>{if(form.action.includes('YOUR_FORM_ID')){e.preventDefault();document.getElementById('form-note').textContent='This form is not yet connected. Please email contact@pmdsteelconstruction.com or telephone +44 7825 809270.';document.getElementById('form-note').style.color='#8b332a'}});
+
     })();
   </script>
 </body>
